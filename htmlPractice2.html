@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html >
+<meta charset="UTF-8">
+<head>
+<style>
+
+h1 {	/*文字總格式設定*/
+    color: red;
+    font-family: arial;
+    font-size: 120%;
+    padding: 1px;   /*padding 內框*/
+    border: 3px solid black; /*border 外框 solid 外框顏色*/
+}
+p  {
+    color: black;
+    font-family: arial;
+    font-size: 100%;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 30px;
+}
+
+#p01 {  /*id*/
+    background-color: yellow;
+}
+
+p.error {
+    color: red;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<h1>This is a heading</h1>
+<h1>This is a heading</h1>
+
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<p>This is a paragraph.</p>
+<hr>
+<p id="p01">I am different</p>
+
+<p class="error">I am different.</p>
+<p>This is a paragraph.</p>
+<p class="error">I am different too.</p>
+<hr>
+<a href="html_images.asp" target="_blank">URL TEST</a> 
+
+<br>
+<br>
+<a href="default.asp">
+  <img src="child.jpg" alt="HTML tutorial" style="width:200px;height:200px;border:0">
+</a>
+<br>
+<br>
+<a href="html_images.asp" target="_blank"  style="text-decoration:none">無底線URL</a>
+</body>
+</html>	
